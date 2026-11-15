@@ -7,12 +7,12 @@ Exact Per-Day Optima and Known-Law Attainment" (N. Naufal, Universitas Brawijaya
 | Folder | What it holds |
 |---|---|
 | `paper/supplement.pdf` | Full proofs, simulations, exploratory-study details, the frozen protocol and the structured-review record |
-| `code/theory/` | Simulations and numerical checks for the theory (Theorems 1-3, Proposition 1, Corollary 1: `finite_delta_v7.py`); `fig_theory.py` draws Figure 1 |
+| `code/theory/` | Simulations and numerical checks for the theory (Theorems 1-3, Proposition 1, Corollary 1: `finite_delta_v7.py`); `fig_theory.py` draws Figure 2 |
 | `code/oc4/` | Exploratory empirical study: inputs (`oc4_build.py`), tuning (`oc4_study.py`), evaluation (`oc4_eval.py`), analyses, the event study, baseline parity, power, and the frozen confirmatory entry point `oc4_confirm.py`; `selected.pkl` and `placebo_selected.pkl` are the frozen settings tuned on 2007-2014 |
 | `code/data_download/` | The scripts that downloaded the raw index data (Yahoo Finance via `yfinance`; Stooq files for Thailand and the Philippines were downloaded by hand and imported with `01b_manual_import.py`) |
 | `results/` | JSON outputs of every script, as reported in the paper and supplement |
 | `protocol/` | The frozen confirmatory protocol (12 November 2026), amendments 1-3 (15 November 2026), their SHA-256 files, and SHA-256 checksums of the 31 raw series; `results/oc4/h1_series.npz` is the frozen series used to calibrate H1 (amendment 3) |
-| `figures/` | Figure 1 |
+| `figures/` | Figure 1 (overview, TikZ: `pdflatex fig_overview.tex`; bar data from `finite_delta_v7.json`) and Figure 2 |
 
 ## Data
 The raw index series are not redistributed here, because they come from third-party vendors. Re-download them with the

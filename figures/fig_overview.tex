@@ -1,0 +1,113 @@
+% Overview figure (Fig. 1 of the main paper). Compile: pdflatex fig_overview.tex
+% Panel (c) bars: exact per-day optima V_d (Corollary 1), shock N(0,4), delta = 0.0024, alpha = 5%, own feedback,
+% from theory/finite_delta_v7.json via fig_overview_vd.dat. Dashed box: first-order price p0 * log(1/delta)/D_P = 1.54.
+\documentclass[border=0.5pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage[scaled=0.95]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[eulergreek]{sansmath}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+\usetikzlibrary{positioning,calc,arrows.meta,decorations.pathreplacing}
+\definecolor{own}{HTML}{0072B2}
+\definecolor{side}{HTML}{009E73}
+\definecolor{shock}{HTML}{D55E00}
+\definecolor{ink}{HTML}{1A1A19}
+\definecolor{mut}{HTML}{5F5F5B}
+\definecolor{calm}{HTML}{DCDCD7}
+\definecolor{panel}{HTML}{F5F5F2}
+\definecolor{gold}{HTML}{C98500}
+\newcommand{\fs}{\fontsize{6.2}{7.3}\selectfont}
+\newcommand{\fh}{\fontsize{7.6}{9}\selectfont\bfseries}
+\newcommand{\ft}{\fontsize{5.6}{6.4}\selectfont}
+\begin{document}
+\sansmath
+\begin{tikzpicture}[
+  font=\fs, >={Stealth[length=3.5pt,width=3pt]},
+  hdr/.style={font=\fh, anchor=north west, inner sep=0pt},
+  cell/.style={minimum width=2.5mm, minimum height=2.5mm, inner sep=0pt, draw=white, line width=0.5pt},
+  chip/.style={draw=#1, fill=#1!7, rounded corners=2pt, line width=0.6pt, text width=34mm, align=left, inner sep=2pt},
+  tag/.style={font=\ft\bfseries, text=#1, inner sep=0.6pt, anchor=north east},
+  pan/.style={fill=panel, rounded corners=3pt, draw=none}
+]
+% ---------------- panels ----------------
+\fill[pan] (0,0.72) rectangle (3.95,5.45);
+\fill[pan] (4.12,0.72) rectangle (8.0,5.45);
+\fill[pan] (8.17,0.72) rectangle (12.2,5.45);
+\node[hdr] at (0.14,5.33) {(a) What the rule sees};
+\node[hdr] at (4.26,5.33) {(b) Rules under a calm budget};
+\node[hdr] at (8.31,5.33) {(c) The per-shock price};
+
+% ---------------- (a) information timeline ----------------
+\def\xz{0.30}\def\st{0.272}
+\foreach \i in {0,...,12} {
+  \pgfmathsetmacro{\x}{\xz+\i*\st}
+  \ifnum\i<4 \node[cell, fill=calm] at (\x,4.45) {}; \else \node[cell, fill=side] at (\x,4.45) {}; \fi
+  \ifnum\i<6 \node[cell, fill=calm] at (\x,3.45) {}; \else \node[cell, fill=shock] at (\x,3.45) {}; \fi
+}
+\pgfmathsetmacro{\xt}{\xz+5.5*\st}
+\draw[ink, densely dashed, line width=0.5pt] (\xt,3.08) -- (\xt,4.62);
+\node[inner sep=0.5pt, anchor=north east, font=\ft] at ($(\xt,3.22)+(-0.04,0)$) {onset $\tau$};
+\node[anchor=south west, inner sep=0pt] at (0.16,4.64) {$X_t$: markets closed before the open};
+\node[anchor=south west, inner sep=0.6pt, fill=panel] at (0.16,3.64) {$s_t$: own scores (loss beyond VaR)};
+\pgfmathsetmacro{\xl}{\xz+3.5*\st}
+\draw[side!65!black, decorate, decoration={brace, amplitude=2pt, mirror}, line width=0.5pt] (\xl,4.29) -- (\xt,4.29)
+  node[midway, below=1.2pt, xshift=-0.6mm, inner sep=0pt, text=side!60!black, font=\ft] {lead $L$};
+\pgfmathsetmacro{\xa}{\xz+6*\st}\pgfmathsetmacro{\xb}{\xz+7*\st}
+\draw[->, shock!85!black, line width=0.5pt] (\xa,3.30) to[out=-60,in=-120] (\xb,3.30);
+\node[anchor=west, inner sep=0.5pt, text=shock!80!black, font=\ft] at ($(\xb,3.18)+(0.06,0)$) {used from $\tau{+}1$};
+% legend
+\node[cell, fill=calm, minimum width=2mm, minimum height=2mm] (lc) at (0.30,2.62) {};
+\node[anchor=west, inner sep=1.5pt] at (lc.east) {calm: $s\sim P_0$, $X\sim Q_0$, i.i.d.};
+\node[cell, fill=side, minimum width=2mm, minimum height=2mm] (lx) at (0.30,2.33) {};
+\node[cell, fill=shock, minimum width=2mm, minimum height=2mm] (ls) at (0.50,2.33) {};
+\node[anchor=west, inner sep=1.5pt] at (ls.east) {shock: $Q_1$, $P_1$ for $m$ days};
+\draw[mut, line width=0.3pt] (0.16,2.07) -- (3.80,2.07);
+\node[anchor=north west, inner sep=0pt, align=left] at (0.16,1.95) {Information seen by forecast $\tau{+}d$:};
+\node[anchor=north, inner sep=0pt] at (1.98,1.62)
+  {$K_d=\underbrace{(d{+}L{+}1)\,D_X}_{\text{side, if used}}+\underbrace{d\,D_P}_{\text{own, if used}}$};
+
+% ---------------- (b) rules ----------------
+\node[draw=ink, fill=white, rounded corners=2pt, line width=0.6pt, text width=34mm, align=center, inner sep=2pt, anchor=north] (rule) at (6.06,5.02)
+  {$q_t=q(\mathcal F_t)$, \ $e_t=\mathbf 1\{s_t>q_t\}$\\[1pt]
+   budget: $\mathbf E_\infty h_0(q_t)\le\delta$ every day\\[0pt]
+   {\ft $h_0$: calm pinball cost above its minimum}};
+\node[chip=own, below=2.6mm of rule] (trk)
+  {\textbf{Fixed-step tracker}\hfill{\ft\bfseries\color{own!80!black}Thm 2}\\ ACI, PID-P: order $1/\delta$ violations};
+\node[chip=side, below=1.5mm of trk] (buf)
+  {\textbf{Learned buffer}\hfill{\ft\bfseries\color{side!60!black}Prop 2, \S6}\\ tracker $+\langle w_t,\phi_t\rangle$, pre-open $\phi_t$};
+\node[chip=gold, below=1.5mm of buf] (gct)
+  {\textbf{Gated tracker (GCT)}\hfill{\ft\bfseries\color{gold!80!black}Thm 3}\\ alarm $\to$ hold; attains (c) given\\ known laws, shock-length bound};
+\draw[->, ink, line width=0.7pt] (3.88,4.25) -- node[above, inner sep=1pt] {$\mathcal F_t$} (rule.west |- 0,4.25);
+\draw[->, ink, line width=0.7pt] (rule.east |- 0,4.72) -- node[above, inner sep=1pt] {$e_t$} (8.22,4.72);
+
+% ---------------- (c) price ----------------
+\begin{axis}[
+  at={(8.66cm,2.95cm)}, anchor=south west, width=3.3cm, height=1.75cm, scale only axis,
+  xmin=-0.8, xmax=14.6, ymin=0, ymax=0.215,
+  axis x line*=bottom, axis y line*=left, axis line style={mut, line width=0.4pt}, tick style={mut, line width=0.3pt},
+  xtick={0,5,10}, ytick={0,0.1,0.2}, yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=1},
+  tick label style={font=\ft}, label style={font=\ft}, tick align=outside, major tick length=1.5pt,
+  xlabel={shock day $d$}, ylabel={violation prob.}, xlabel shift=-4pt, ylabel shift=-5pt,
+  clip=false]
+  \fill[shock, opacity=0.09] (axis cs:-0.5,0) rectangle (axis cs:7.48,0.2054);
+  \draw[shock!85!black, densely dashed, line width=0.6pt] (axis cs:-0.5,0.2054) -- (axis cs:7.48,0.2054) -- (axis cs:7.48,0);
+  \addplot[ybar, bar width=1.7mm, fill=own, draw=none] table[x=d, y=V] {fig_overview_vd.dat};
+  \node[font=\ft, text=shock!85!black, anchor=south west, inner sep=0.5pt] at (axis cs:-0.5,0.209) {$p_0$ a day for $\log(1/\delta)/D_P$ days};
+  \node[font=\ft, text=shock!85!black, anchor=west, inner sep=0.5pt, align=left] at (axis cs:7.9,0.16) {first order\\$=1.54$};
+  \node[font=\ft, text=own!85!black, anchor=west, inner sep=0.5pt, align=left] at (axis cs:7.9,0.088) {exact\\$\sum_d V_d=0.99$};
+\end{axis}
+\node[anchor=north west, inner sep=0pt, align=left, text width=39mm] at (8.31,2.33)
+  {\textbf{Thm 1} every rule is violated w.p.\ ${\approx}\,p_0$\\ a day while $K_d<\log(1/\delta)$\\[1.5pt]
+   \textbf{Prop 1} with no data dated before $\tau$,\\ day 0 is no better than a fixed buffer\\[1.5pt]
+   \textbf{Cor 1} exact per-day optima, summed};
+
+% ---------------- bottom strip: data ----------------
+\fill[side!8, rounded corners=3pt] (0,0) rectangle (12.2,0.56);
+\node[anchor=west, inner sep=0pt, align=left] at (0.14,0.28)
+  {\textbf{Exploratory illustration (\S6).} 17 equity indices, 2015--2025, VaR at the local open: pre-open information lowers tick loss\\
+   by 3--8\%, as much under tuned conformal PID as under the buffer, mostly on a few crash days. Confirmatory protocol frozen.};
+\end{tikzpicture}
+\end{document}
