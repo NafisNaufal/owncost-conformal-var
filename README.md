@@ -37,6 +37,10 @@ the published cells (-7.75% at 1%, -3.04% at 5%).
 The empirical results are exploratory: the 2015-2025 window had been examined before the design was fixed. The proofs
 have not been checked by anyone other than the author.
 
+## Licence
+Code (`code/`, and the TikZ source `figures/fig_overview.tex`) is released under the MIT licence (`LICENSE`). The supplement,
+results, figures and protocol documents are released under CC BY 4.0 (`LICENSE-CC-BY-4.0`). Raw vendor data are not
+included and are not covered by either licence.
+
 ## Before depositing (author)
-- Choose a licence (for example MIT for code and CC BY 4.0 for documents) and add a LICENSE file; none is included yet.
-- Add the GitHub URL and, after deposit, the DOI to the paper and to `CITATION.cff`.
+- After deposit, add the DOI to the paper and to `CITATION.cff`.

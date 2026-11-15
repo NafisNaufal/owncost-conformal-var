@@ -2,6 +2,10 @@ cff-version: 1.2.0
 message: "If you use this code or results, please cite the paper and this archive."
 title: "Code, results and protocol for 'The Per-Shock Price of Own Feedback in Online Conformal Value-at-Risk'"
 version: "v7"
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/NafisNaufal/owncost-conformal-var"
 date-released: "2026-11-15"
 authors:
   - family-names: "Naufal"

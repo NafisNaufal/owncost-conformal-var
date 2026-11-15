@@ -2,8 +2,21 @@
   "title": "Code, results and protocol for 'The Per-Shock Price of Own Feedback in Online Conformal Value-at-Risk: Lower Bounds, Exact Per-Day Optima and Known-Law Attainment'",
   "upload_type": "software",
   "description": "Simulation and analysis code, JSON results, the supplement (full proofs and results) and the frozen, hashed confirmatory protocol with three amendments for the paper. The empirical study is exploratory; the confirmatory test has not been run. Raw vendor data are not redistributed; download scripts and SHA-256 checksums are included.",
-  "creators": [{"name": "Naufal, Nafis", "affiliation": "Universitas Brawijaya"}],
-  "keywords": ["online conformal prediction", "Value-at-Risk", "change detection", "Shiryaev-Roberts", "pre-registration"],
+  "creators": [
+    {
+      "name": "Naufal, Nafis",
+      "affiliation": "Universitas Brawijaya"
+    }
+  ],
+  "keywords": [
+    "online conformal prediction",
+    "Value-at-Risk",
+    "change detection",
+    "Shiryaev-Roberts",
+    "pre-registration"
+  ],
   "version": "v7",
-  "access_right": "open"
+  "access_right": "open",
+  "license": "MIT",
+  "notes": "Code (code/) is MIT-licensed; the supplement, results, figures and protocol documents are licensed under CC BY 4.0 (see LICENSE and LICENSE-CC-BY-4.0)."
 }
