@@ -1,0 +1,9 @@
+{
+  "title": "Code, results and protocol for 'What Own Feedback Costs Online Conformal Value-at-Risk: Per-Shock Lower Bounds, Known-Law Attainment and the Exact First Day'",
+  "upload_type": "software",
+  "description": "Simulation and analysis code, JSON results, the supplement (full proofs and results) and the frozen, hashed confirmatory protocol with two amendments for the paper. The empirical study is exploratory; the confirmatory test has not been run. Raw vendor data are not redistributed; download scripts and SHA-256 checksums are included.",
+  "creators": [{"name": "Naufal, Nafis", "affiliation": "Universitas Brawijaya"}],
+  "keywords": ["online conformal prediction", "Value-at-Risk", "change detection", "Shiryaev-Roberts", "pre-registration"],
+  "version": "v6",
+  "access_right": "open"
+}

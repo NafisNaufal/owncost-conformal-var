@@ -1,0 +1,1472 @@
+{
+ "oc": [
+  {
+   "timing": "oc",
+   "alpha": 0.01,
+   "label": "real",
+   "group": "US led",
+   "onsets": 31,
+   "records": 62,
+   "episodes": 17,
+   "top4_episode_onsets": 15,
+   "tracker": 38.70967741935484,
+   "buffer": 4.838709677419355,
+   "diff": -33.87096774193548,
+   "wild_lo": -46.551880600034046,
+   "wild_hi": -20.496747165801686,
+   "t_lo": -47.07092401719674,
+   "t_hi": -20.67101146667423,
+   "loo_min": -35.714285714285715,
+   "loo_max": -31.03448275862069
+  },
+  {
+   "timing": "oc",
+   "alpha": 0.01,
+   "label": "real",
+   "group": "Not US led",
+   "onsets": 225,
+   "records": 450,
+   "episodes": 81,
+   "top4_episode_onsets": 34,
+   "tracker": 26.444444444444443,
+   "buffer": 26.88888888888889,
+   "diff": 0.4444444444444444,
+   "wild_lo": -2.5888252280602444,
+   "wild_hi": 3.441234957359622,
+   "t_lo": -2.508144587761762,
+   "t_hi": 3.397033476650651,
+   "loo_min": 0.0,
+   "loo_max": 0.9259259259259258
+  },
+  {
+   "timing": "oc",
+   "alpha": 0.01,
+   "label": "real",
+   "group": "all",
+   "onsets": 256,
+   "records": 512,
+   "episodes": 86,
+   "top4_episode_onsets": 34,
+   "tracker": 27.9296875,
+   "buffer": 24.21875,
+   "diff": -3.7109375,
+   "wild_lo": -7.36648318960202,
+   "wild_hi": 0.12471189574803712,
+   "t_lo": -7.471044724000106,
+   "t_hi": 0.04916972400010669,
+   "loo_min": -4.233870967741935,
+   "loo_max": -2.9644268774703555
+  },
+  {
+   "timing": "oc",
+   "alpha": 0.01,
+   "label": "A shift-inputs",
+   "group": "US led",
+   "null_mean": -3.588709677419355,
+   "null_min": -9.67741935483871,
+   "n_le_real": 0,
+   "n": 40,
+   "excess": -30.282258064516125
+  },
+  {
+   "timing": "oc",
+   "alpha": 0.01,
+   "label": "A shift-inputs",
+   "group": "Not US led",
+   "null_mean": 0.33333333333333337,
+   "null_min": -0.2222222222222222,
+   "n_le_real": 30,
+   "n": 40,
+   "excess": 0.11111111111111105
+  },
+  {
+   "timing": "oc",
+   "alpha": 0.01,
+   "label": "A shift-inputs",
+   "group": "all",
+   "null_mean": -0.1416015625,
+   "null_min": -0.5859375,
+   "n_le_real": 0,
+   "n": 40,
+   "excess": -3.5693359375
+  },
+  {
+   "timing": "oc",
+   "alpha": 0.01,
+   "label": "B self-grouped",
+   "group": "US led",
+   "null_mean": -3.501460352246356,
+   "null_min": -14.285714285714285,
+   "n_le_real": 0,
+   "n": 40,
+   "excess": -30.369507389689126
+  },
+  {
+   "timing": "oc",
+   "alpha": 0.01,
+   "label": "B self-grouped",
+   "group": "Not US led",
+   "null_mean": 0.040972612330634414,
+   "null_min": -0.42016806722689076,
+   "n_le_real": 33,
+   "n": 40,
+   "excess": 0.40347183211381
+  },
+  {
+   "timing": "oc",
+   "alpha": 0.01,
+   "label": "B self-grouped",
+   "group": "all",
+   "null_mean": -0.1416015625,
+   "null_min": -0.5859375,
+   "n_le_real": 0,
+   "n": 40,
+   "excess": -3.5693359375
+  },
+  {
+   "timing": "oc",
+   "alpha": 0.05,
+   "label": "real",
+   "group": "US led",
+   "onsets": 31,
+   "records": 62,
+   "episodes": 17,
+   "top4_episode_onsets": 15,
+   "tracker": 96.7741935483871,
+   "buffer": 51.61290322580645,
+   "diff": -45.16129032258064,
+   "wild_lo": -64.59555996435601,
+   "wild_hi": -25.971306952538352,
+   "t_lo": -63.528695234583786,
+   "t_hi": -26.793885410577502,
+   "loo_min": -48.275862068965516,
+   "loo_max": -38.88888888888889
+  },
+  {
+   "timing": "oc",
+   "alpha": 0.05,
+   "label": "real",
+   "group": "Not US led",
+   "onsets": 225,
+   "records": 450,
+   "episodes": 81,
+   "top4_episode_onsets": 34,
+   "tracker": 92.88888888888889,
+   "buffer": 90.88888888888889,
+   "diff": -2.0,
+   "wild_lo": -5.411536706385118,
+   "wild_hi": 1.3437841237579486,
+   "t_lo": -5.335716738717447,
+   "t_hi": 1.3357167387174473,
+   "loo_min": -2.48868778280543,
+   "loo_max": -1.1520737327188941
+  },
+  {
+   "timing": "oc",
+   "alpha": 0.05,
+   "label": "real",
+   "group": "all",
+   "onsets": 256,
+   "records": 512,
+   "episodes": 86,
+   "top4_episode_onsets": 34,
+   "tracker": 93.359375,
+   "buffer": 86.1328125,
+   "diff": -7.2265625,
+   "wild_lo": -11.63753441840882,
+   "wild_hi": -3.0184425236050236,
+   "t_lo": -11.58390743435627,
+   "t_hi": -2.869217565643731,
+   "loo_min": -7.738095238095238,
+   "loo_max": -6.0
+  },
+  {
+   "timing": "oc",
+   "alpha": 0.05,
+   "label": "A shift-inputs",
+   "group": "US led",
+   "null_mean": -5.080645161290323,
+   "null_min": -8.064516129032258,
+   "n_le_real": 0,
+   "n": 40,
+   "excess": -40.08064516129032
+  },
+  {
+   "timing": "oc",
+   "alpha": 0.05,
+   "label": "A shift-inputs",
+   "group": "Not US led",
+   "null_mean": -0.45,
+   "null_min": -1.7777777777777777,
+   "n_le_real": 0,
+   "n": 40,
+   "excess": -1.55
+  },
+  {
+   "timing": "oc",
+   "alpha": 0.05,
+   "label": "A shift-inputs",
+   "group": "all",
+   "null_mean": -1.0107421875,
+   "null_min": -2.5390625,
+   "n_le_real": 0,
+   "n": 40,
+   "excess": -6.2158203125
+  },
+  {
+   "timing": "oc",
+   "alpha": 0.05,
+   "label": "B self-grouped",
+   "group": "US led",
+   "null_mean": -9.354932459077997,
+   "null_min": -25.0,
+   "n_le_real": 0,
+   "n": 40,
+   "excess": -35.80635786350264
+  },
+  {
+   "timing": "oc",
+   "alpha": 0.05,
+   "label": "B self-grouped",
+   "group": "Not US led",
+   "null_mean": -0.5909863490261005,
+   "null_min": -1.6064257028112447,
+   "n_le_real": 0,
+   "n": 40,
+   "excess": -1.4090136509738995
+  },
+  {
+   "timing": "oc",
+   "alpha": 0.05,
+   "label": "B self-grouped",
+   "group": "all",
+   "null_mean": -1.0107421875,
+   "null_min": -2.5390625,
+   "n_le_real": 0,
+   "n": 40,
+   "excess": -6.2158203125
+  }
+ ],
+ "cc": [
+  {
+   "timing": "cc",
+   "alpha": 0.01,
+   "label": "real",
+   "group": "US led",
+   "onsets": 22,
+   "records": 44,
+   "episodes": 10,
+   "top4_episode_onsets": 14,
+   "tracker": 22.727272727272727,
+   "buffer": 9.090909090909092,
+   "diff": -13.636363636363635,
+   "wild_lo": -34.29410875852397,
+   "wild_hi": 7.2760813113852905,
+   "t_lo": -30.802221064638207,
+   "t_hi": 3.5294937919109373,
+   "loo_min": -17.647058823529413,
+   "loo_max": -7.894736842105263
+  },
+  {
+   "timing": "cc",
+   "alpha": 0.01,
+   "label": "real",
+   "group": "Not US led",
+   "onsets": 324,
+   "records": 648,
+   "episodes": 80,
+   "top4_episode_onsets": 45,
+   "tracker": 25.0,
+   "buffer": 27.9320987654321,
+   "diff": 2.9320987654320985,
+   "wild_lo": 1.1850062540791868,
+   "wild_hi": 4.703194632123495,
+   "t_lo": 1.1450669722550992,
+   "t_hi": 4.719130558609098,
+   "loo_min": 2.4922118380062304,
+   "loo_max": 3.1347962382445136
+  },
+  {
+   "timing": "cc",
+   "alpha": 0.01,
+   "label": "real",
+   "group": "all",
+   "onsets": 346,
+   "records": 692,
+   "episodes": 81,
+   "top4_episode_onsets": 46,
+   "tracker": 24.85549132947977,
+   "buffer": 26.734104046242773,
+   "diff": 1.8786127167630058,
+   "wild_lo": -0.19077724525363404,
+   "wild_hi": 3.952924453134246,
+   "t_lo": -0.21280222092304388,
+   "t_hi": 3.970027654449056,
+   "loo_min": 1.4577259475218658,
+   "loo_max": 2.3391812865497075
+  },
+  {
+   "timing": "cc",
+   "alpha": 0.01,
+   "label": "A shift-inputs",
+   "group": "US led",
+   "null_mean": -0.4545454545454546,
+   "null_min": -4.545454545454546,
+   "n_le_real": 0,
+   "n": 40,
+   "excess": -13.18181818181818
+  },
+  {
+   "timing": "cc",
+   "alpha": 0.01,
+   "label": "A shift-inputs",
+   "group": "Not US led",
+   "null_mean": -0.046296296296296294,
+   "null_min": -0.6172839506172839,
+   "n_le_real": 40,
+   "n": 40,
+   "excess": 2.9783950617283947
+  },
+  {
+   "timing": "cc",
+   "alpha": 0.01,
+   "label": "A shift-inputs",
+   "group": "all",
+   "null_mean": -0.07225433526011558,
+   "null_min": -0.7225433526011561,
+   "n_le_real": 40,
+   "n": 40,
+   "excess": 1.9508670520231213
+  },
+  {
+   "timing": "cc",
+   "alpha": 0.01,
+   "label": "B self-grouped",
+   "group": "US led",
+   "null_mean": -3.265976147268256,
+   "null_min": -20.454545454545457,
+   "n_le_real": 1,
+   "n": 40,
+   "excess": -10.370387489095378
+  },
+  {
+   "timing": "cc",
+   "alpha": 0.01,
+   "label": "B self-grouped",
+   "group": "Not US led",
+   "null_mean": 0.1095659050933806,
+   "null_min": -0.3048780487804878,
+   "n_le_real": 40,
+   "n": 40,
+   "excess": 2.822532860338718
+  },
+  {
+   "timing": "cc",
+   "alpha": 0.01,
+   "label": "B self-grouped",
+   "group": "all",
+   "null_mean": -0.07225433526011558,
+   "null_min": -0.7225433526011561,
+   "n_le_real": 40,
+   "n": 40,
+   "excess": 1.9508670520231213
+  },
+  {
+   "timing": "cc",
+   "alpha": 0.05,
+   "label": "real",
+   "group": "US led",
+   "onsets": 22,
+   "records": 44,
+   "episodes": 10,
+   "top4_episode_onsets": 14,
+   "tracker": 84.0909090909091,
+   "buffer": 61.36363636363637,
+   "diff": -22.727272727272727,
+   "wild_lo": -43.71640078651022,
+   "wild_hi": -0.7501164903606944,
+   "t_lo": -41.60367333127132,
+   "t_hi": -3.850872123274138,
+   "loo_min": -26.31578947368421,
+   "loo_max": -17.647058823529413
+  },
+  {
+   "timing": "cc",
+   "alpha": 0.05,
+   "label": "real",
+   "group": "Not US led",
+   "onsets": 324,
+   "records": 648,
+   "episodes": 80,
+   "top4_episode_onsets": 45,
+   "tracker": 91.35802469135803,
+   "buffer": 92.12962962962963,
+   "diff": 0.7716049382716049,
+   "wild_lo": -0.6825790654030508,
+   "wild_hi": 2.2053108211264507,
+   "t_lo": -0.6938875627404995,
+   "t_hi": 2.2370974392837093,
+   "loo_min": 0.31645569620253167,
+   "loo_max": 1.1041009463722398
+  },
+  {
+   "timing": "cc",
+   "alpha": 0.05,
+   "label": "real",
+   "group": "all",
+   "onsets": 346,
+   "records": 692,
+   "episodes": 81,
+   "top4_episode_onsets": 46,
+   "tracker": 90.89595375722543,
+   "buffer": 90.17341040462428,
+   "diff": -0.7225433526011561,
+   "wild_lo": -2.67506207585024,
+   "wild_hi": 1.3784737382805847,
+   "t_lo": -2.7757910207098178,
+   "t_hi": 1.3307043155075053,
+   "loo_min": -1.183431952662722,
+   "loo_max": -0.14705882352941177
+  },
+  {
+   "timing": "cc",
+   "alpha": 0.05,
+   "label": "A shift-inputs",
+   "group": "US led",
+   "null_mean": 0.05681818181818182,
+   "null_min": -4.545454545454546,
+   "n_le_real": 0,
+   "n": 40,
+   "excess": -22.78409090909091
+  },
+  {
+   "timing": "cc",
+   "alpha": 0.05,
+   "label": "A shift-inputs",
+   "group": "Not US led",
+   "null_mean": -0.09259259259259259,
+   "null_min": -0.7716049382716049,
+   "n_le_real": 40,
+   "n": 40,
+   "excess": 0.8641975308641975
+  },
+  {
+   "timing": "cc",
+   "alpha": 0.05,
+   "label": "A shift-inputs",
+   "group": "all",
+   "null_mean": -0.08309248554913296,
+   "null_min": -0.7225433526011561,
+   "n_le_real": 2,
+   "n": 40,
+   "excess": -0.6394508670520231
+  },
+  {
+   "timing": "cc",
+   "alpha": 0.05,
+   "label": "B self-grouped",
+   "group": "US led",
+   "null_mean": -6.547125675698544,
+   "null_min": -17.857142857142858,
+   "n_le_real": 0,
+   "n": 40,
+   "excess": -16.18014705157418
+  },
+  {
+   "timing": "cc",
+   "alpha": 0.05,
+   "label": "B self-grouped",
+   "group": "Not US led",
+   "null_mean": 0.2879150460131287,
+   "null_min": -0.15151515151515152,
+   "n_le_real": 36,
+   "n": 40,
+   "excess": 0.48368989225847625
+  },
+  {
+   "timing": "cc",
+   "alpha": 0.05,
+   "label": "B self-grouped",
+   "group": "all",
+   "null_mean": -0.08309248554913296,
+   "null_min": -0.7225433526011561,
+   "n_le_real": 2,
+   "n": 40,
+   "excess": -0.6394508670520231
+  }
+ ],
+ "sensitivity": [
+  {
+   "Q": 10,
+   "c": 0.1,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 78,
+   "diff": -30.128205128205128
+  },
+  {
+   "Q": 10,
+   "c": 0.1,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 521,
+   "diff": 2.2072936660268714
+  },
+  {
+   "Q": 10,
+   "c": 0.1,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 78,
+   "diff": -35.8974358974359
+  },
+  {
+   "Q": 10,
+   "c": 0.1,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 521,
+   "diff": 2.5911708253358925
+  },
+  {
+   "Q": 10,
+   "c": 0.1,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 88,
+   "diff": -28.40909090909091
+  },
+  {
+   "Q": 10,
+   "c": 0.1,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 703,
+   "diff": 1.9203413940256047
+  },
+  {
+   "Q": 10,
+   "c": 0.1,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 88,
+   "diff": -36.36363636363637
+  },
+  {
+   "Q": 10,
+   "c": 0.1,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 703,
+   "diff": 2.418207681365576
+  },
+  {
+   "Q": 10,
+   "c": 0.1,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 88,
+   "diff": -28.40909090909091
+  },
+  {
+   "Q": 10,
+   "c": 0.1,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 784,
+   "diff": 2.295918367346939
+  },
+  {
+   "Q": 10,
+   "c": 0.1,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 88,
+   "diff": -36.36363636363637
+  },
+  {
+   "Q": 10,
+   "c": 0.1,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 784,
+   "diff": 3.188775510204082
+  },
+  {
+   "Q": 10,
+   "c": 0.25,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 65,
+   "diff": -31.538461538461537
+  },
+  {
+   "Q": 10,
+   "c": 0.25,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 243,
+   "diff": 0.6172839506172839
+  },
+  {
+   "Q": 10,
+   "c": 0.25,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 65,
+   "diff": -33.07692307692307
+  },
+  {
+   "Q": 10,
+   "c": 0.25,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 243,
+   "diff": 0.6172839506172839
+  },
+  {
+   "Q": 10,
+   "c": 0.25,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 81,
+   "diff": -29.629629629629626
+  },
+  {
+   "Q": 10,
+   "c": 0.25,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 407,
+   "diff": 0.4914004914004914
+  },
+  {
+   "Q": 10,
+   "c": 0.25,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 81,
+   "diff": -35.18518518518518
+  },
+  {
+   "Q": 10,
+   "c": 0.25,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 407,
+   "diff": 0.4914004914004914
+  },
+  {
+   "Q": 10,
+   "c": 0.25,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 84,
+   "diff": -28.57142857142857
+  },
+  {
+   "Q": 10,
+   "c": 0.25,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 477,
+   "diff": 1.1530398322851152
+  },
+  {
+   "Q": 10,
+   "c": 0.25,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 84,
+   "diff": -35.11904761904761
+  },
+  {
+   "Q": 10,
+   "c": 0.25,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 477,
+   "diff": 0.41928721174004197
+  },
+  {
+   "Q": 10,
+   "c": 0.5,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 32,
+   "diff": -37.5
+  },
+  {
+   "Q": 10,
+   "c": 0.5,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 78,
+   "diff": -1.282051282051282
+  },
+  {
+   "Q": 10,
+   "c": 0.5,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 32,
+   "diff": -39.0625
+  },
+  {
+   "Q": 10,
+   "c": 0.5,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 78,
+   "diff": -2.564102564102564
+  },
+  {
+   "Q": 10,
+   "c": 0.5,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 61,
+   "diff": -31.147540983606557
+  },
+  {
+   "Q": 10,
+   "c": 0.5,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 181,
+   "diff": -2.209944751381215
+  },
+  {
+   "Q": 10,
+   "c": 0.5,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 61,
+   "diff": -31.967213114754102
+  },
+  {
+   "Q": 10,
+   "c": 0.5,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 181,
+   "diff": -2.4861878453038675
+  },
+  {
+   "Q": 10,
+   "c": 0.5,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 65,
+   "diff": -30.76923076923077
+  },
+  {
+   "Q": 10,
+   "c": 0.5,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 231,
+   "diff": -0.6493506493506493
+  },
+  {
+   "Q": 10,
+   "c": 0.5,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 65,
+   "diff": -33.07692307692307
+  },
+  {
+   "Q": 10,
+   "c": 0.5,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 231,
+   "diff": -3.0303030303030303
+  },
+  {
+   "Q": 20,
+   "c": 0.1,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 32,
+   "diff": -31.25
+  },
+  {
+   "Q": 20,
+   "c": 0.1,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 300,
+   "diff": 1.6666666666666667
+  },
+  {
+   "Q": 20,
+   "c": 0.1,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 32,
+   "diff": -51.5625
+  },
+  {
+   "Q": 20,
+   "c": 0.1,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 300,
+   "diff": 0.5
+  },
+  {
+   "Q": 20,
+   "c": 0.1,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 35,
+   "diff": -32.857142857142854
+  },
+  {
+   "Q": 20,
+   "c": 0.1,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 404,
+   "diff": 1.7326732673267329
+  },
+  {
+   "Q": 20,
+   "c": 0.1,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 35,
+   "diff": -47.14285714285714
+  },
+  {
+   "Q": 20,
+   "c": 0.1,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 404,
+   "diff": 0.24752475247524752
+  },
+  {
+   "Q": 20,
+   "c": 0.1,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 35,
+   "diff": -32.857142857142854
+  },
+  {
+   "Q": 20,
+   "c": 0.1,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 452,
+   "diff": 2.3230088495575223
+  },
+  {
+   "Q": 20,
+   "c": 0.1,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 35,
+   "diff": -47.14285714285714
+  },
+  {
+   "Q": 20,
+   "c": 0.1,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 452,
+   "diff": 1.1061946902654867
+  },
+  {
+   "Q": 20,
+   "c": 0.25,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 25,
+   "diff": -34.0
+  },
+  {
+   "Q": 20,
+   "c": 0.25,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 137,
+   "diff": 0.7299270072992701
+  },
+  {
+   "Q": 20,
+   "c": 0.25,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 25,
+   "diff": -48.0
+  },
+  {
+   "Q": 20,
+   "c": 0.25,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 137,
+   "diff": -3.2846715328467155
+  },
+  {
+   "Q": 20,
+   "c": 0.25,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 31,
+   "diff": -33.87096774193548
+  },
+  {
+   "Q": 20,
+   "c": 0.25,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 225,
+   "diff": 0.4444444444444444
+  },
+  {
+   "Q": 20,
+   "c": 0.25,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 31,
+   "diff": -45.16129032258064
+  },
+  {
+   "Q": 20,
+   "c": 0.25,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 225,
+   "diff": -2.0
+  },
+  {
+   "Q": 20,
+   "c": 0.25,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 32,
+   "diff": -32.8125
+  },
+  {
+   "Q": 20,
+   "c": 0.25,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 264,
+   "diff": 1.5151515151515151
+  },
+  {
+   "Q": 20,
+   "c": 0.25,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 32,
+   "diff": -46.875
+  },
+  {
+   "Q": 20,
+   "c": 0.25,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 264,
+   "diff": -1.893939393939394
+  },
+  {
+   "Q": 20,
+   "c": 0.5,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 13,
+   "diff": -34.61538461538461
+  },
+  {
+   "Q": 20,
+   "c": 0.5,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 37,
+   "diff": 1.3513513513513513
+  },
+  {
+   "Q": 20,
+   "c": 0.5,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 13,
+   "diff": -57.692307692307686
+  },
+  {
+   "Q": 20,
+   "c": 0.5,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 37,
+   "diff": -5.405405405405405
+  },
+  {
+   "Q": 20,
+   "c": 0.5,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 21,
+   "diff": -35.714285714285715
+  },
+  {
+   "Q": 20,
+   "c": 0.5,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 99,
+   "diff": -2.525252525252525
+  },
+  {
+   "Q": 20,
+   "c": 0.5,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 21,
+   "diff": -47.61904761904761
+  },
+  {
+   "Q": 20,
+   "c": 0.5,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 99,
+   "diff": -4.545454545454546
+  },
+  {
+   "Q": 20,
+   "c": 0.5,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 23,
+   "diff": -36.95652173913043
+  },
+  {
+   "Q": 20,
+   "c": 0.5,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 129,
+   "diff": -0.3875968992248062
+  },
+  {
+   "Q": 20,
+   "c": 0.5,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 23,
+   "diff": -47.82608695652174
+  },
+  {
+   "Q": 20,
+   "c": 0.5,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 129,
+   "diff": -4.651162790697675
+  },
+  {
+   "Q": 40,
+   "c": 0.1,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 7,
+   "diff": -42.857142857142854
+  },
+  {
+   "Q": 40,
+   "c": 0.1,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 130,
+   "diff": 1.5384615384615385
+  },
+  {
+   "Q": 40,
+   "c": 0.1,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 7,
+   "diff": -42.857142857142854
+  },
+  {
+   "Q": 40,
+   "c": 0.1,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 130,
+   "diff": 1.153846153846154
+  },
+  {
+   "Q": 40,
+   "c": 0.1,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 10,
+   "diff": -45.0
+  },
+  {
+   "Q": 40,
+   "c": 0.1,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 176,
+   "diff": 1.4204545454545454
+  },
+  {
+   "Q": 40,
+   "c": 0.1,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 10,
+   "diff": -30.0
+  },
+  {
+   "Q": 40,
+   "c": 0.1,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 176,
+   "diff": -0.2840909090909091
+  },
+  {
+   "Q": 40,
+   "c": 0.1,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 10,
+   "diff": -45.0
+  },
+  {
+   "Q": 40,
+   "c": 0.1,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 190,
+   "diff": 2.368421052631579
+  },
+  {
+   "Q": 40,
+   "c": 0.1,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 10,
+   "diff": -30.0
+  },
+  {
+   "Q": 40,
+   "c": 0.1,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 190,
+   "diff": 0.0
+  },
+  {
+   "Q": 40,
+   "c": 0.25,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 7,
+   "diff": -42.857142857142854
+  },
+  {
+   "Q": 40,
+   "c": 0.25,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 58,
+   "diff": -0.8620689655172413
+  },
+  {
+   "Q": 40,
+   "c": 0.25,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 7,
+   "diff": -42.857142857142854
+  },
+  {
+   "Q": 40,
+   "c": 0.25,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 58,
+   "diff": -1.7241379310344827
+  },
+  {
+   "Q": 40,
+   "c": 0.25,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 9,
+   "diff": -44.44444444444444
+  },
+  {
+   "Q": 40,
+   "c": 0.25,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 91,
+   "diff": -1.098901098901099
+  },
+  {
+   "Q": 40,
+   "c": 0.25,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 9,
+   "diff": -33.33333333333333
+  },
+  {
+   "Q": 40,
+   "c": 0.25,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 91,
+   "diff": -2.197802197802198
+  },
+  {
+   "Q": 40,
+   "c": 0.25,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 9,
+   "diff": -44.44444444444444
+  },
+  {
+   "Q": 40,
+   "c": 0.25,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 107,
+   "diff": 0.9345794392523363
+  },
+  {
+   "Q": 40,
+   "c": 0.25,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 9,
+   "diff": -33.33333333333333
+  },
+  {
+   "Q": 40,
+   "c": 0.25,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 107,
+   "diff": -1.8691588785046727
+  },
+  {
+   "Q": 40,
+   "c": 0.5,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 3,
+   "diff": -50.0
+  },
+  {
+   "Q": 40,
+   "c": 0.5,
+   "w": 0,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 11,
+   "diff": -4.545454545454546
+  },
+  {
+   "Q": 40,
+   "c": 0.5,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 3,
+   "diff": -33.33333333333333
+  },
+  {
+   "Q": 40,
+   "c": 0.5,
+   "w": 0,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 11,
+   "diff": -13.636363636363635
+  },
+  {
+   "Q": 40,
+   "c": 0.5,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 5,
+   "diff": -50.0
+  },
+  {
+   "Q": 40,
+   "c": 0.5,
+   "w": 1,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 36,
+   "diff": -4.166666666666666
+  },
+  {
+   "Q": 40,
+   "c": 0.5,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 5,
+   "diff": -40.0
+  },
+  {
+   "Q": 40,
+   "c": 0.5,
+   "w": 1,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 36,
+   "diff": -5.555555555555555
+  },
+  {
+   "Q": 40,
+   "c": 0.5,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "US led",
+   "onsets": 6,
+   "diff": -58.333333333333336
+  },
+  {
+   "Q": 40,
+   "c": 0.5,
+   "w": 2,
+   "alpha": 0.01,
+   "group": "Not US led",
+   "onsets": 45,
+   "diff": -3.3333333333333335
+  },
+  {
+   "Q": 40,
+   "c": 0.5,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "US led",
+   "onsets": 6,
+   "diff": -33.33333333333333
+  },
+  {
+   "Q": 40,
+   "c": 0.5,
+   "w": 2,
+   "alpha": 0.05,
+   "group": "Not US led",
+   "onsets": 45,
+   "diff": -2.2222222222222223
+  }
+ ]
+}

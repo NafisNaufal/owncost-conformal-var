@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.pkl
+!code/oc4/selected.pkl
+!code/oc4/placebo_selected.pkl
+data/

@@ -1,0 +1,112 @@
+{
+ "results": [
+  {
+   "alpha": 0.01,
+   "comparison": "own stress vs tracker",
+   "pct_of_tracker": -3.654568770495973,
+   "lo": -8.106121933027012,
+   "hi": -0.0999865081014852
+  },
+  {
+   "alpha": 0.01,
+   "comparison": "all four vs tracker",
+   "pct_of_tracker": -7.019635705214619,
+   "lo": -13.478642925644829,
+   "hi": -2.213839889955143
+  },
+  {
+   "alpha": 0.01,
+   "comparison": "cross-market net of own stress (all four - own stress)",
+   "pct_of_tracker": -3.365066934718646,
+   "lo": -5.802409020770889,
+   "hi": -1.7124334130986667
+  },
+  {
+   "alpha": 0.01,
+   "comparison": "v4: cross-market net of own gap (all three - own gap)",
+   "pct_of_tracker": -5.536636914121124,
+   "lo": -11.781456629647357,
+   "hi": -1.0834165207265316
+  },
+  {
+   "alpha": 0.01,
+   "comparison": "all four - all three",
+   "pct_of_tracker": 0.7328477981238438,
+   "lo": -0.6032088946026444,
+   "hi": 2.591995757042669
+  },
+  {
+   "alpha": 0.01,
+   "comparison": "violation rate, own stress",
+   "pct_of_tracker": 0.9518284560182201
+  },
+  {
+   "alpha": 0.01,
+   "comparison": "violation rate, all four",
+   "pct_of_tracker": 0.9045593227622363
+  },
+  {
+   "alpha": 0.05,
+   "comparison": "own stress vs tracker",
+   "pct_of_tracker": -1.2138470641542831,
+   "lo": -2.0869267809358005,
+   "hi": -0.5521679030860707
+  },
+  {
+   "alpha": 0.05,
+   "comparison": "all four vs tracker",
+   "pct_of_tracker": -2.351675118111047,
+   "lo": -4.026920048668506,
+   "hi": -1.094917491080741
+  },
+  {
+   "alpha": 0.05,
+   "comparison": "cross-market net of own stress (all four - own stress)",
+   "pct_of_tracker": -1.1378280539567638,
+   "lo": -2.036693664956619,
+   "hi": -0.46258713960809883
+  },
+  {
+   "alpha": 0.05,
+   "comparison": "v4: cross-market net of own gap (all three - own gap)",
+   "pct_of_tracker": -1.8046478424181454,
+   "lo": -3.6986214104745976,
+   "hi": -0.4101818550740196
+  },
+  {
+   "alpha": 0.05,
+   "comparison": "all four - all three",
+   "pct_of_tracker": 0.6858188862839004,
+   "lo": 0.12246255491727925,
+   "hi": 1.2911923281346092
+  },
+  {
+   "alpha": 0.05,
+   "comparison": "violation rate, own stress",
+   "pct_of_tracker": 4.911692664689958
+  },
+  {
+   "alpha": 0.05,
+   "comparison": "violation rate, all four",
+   "pct_of_tracker": 4.914915560139229
+  }
+ ],
+ "chosen": {
+  "own stress|0.01": {
+   "eta_u": 0.2,
+   "eta_w": 2.0
+  },
+  "own stress|0.05": {
+   "eta_u": 0.1,
+   "eta_w": 0.1
+  },
+  "all four|0.01": {
+   "eta_u": 0.05,
+   "eta_w": 0.5
+  },
+  "all four|0.05": {
+   "eta_u": 0.1,
+   "eta_w": 0.1
+  }
+ }
+}

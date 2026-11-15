@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code or results, please cite the paper and this archive."
+title: "Code, results and protocol for 'What Own Feedback Costs Online Conformal Value-at-Risk'"
+version: "v6"
+date-released: "2026-11-15"
+authors:
+  - family-names: "Naufal"
+    given-names: "Nafis"
+    affiliation: "Universitas Brawijaya"
+keywords:
+  - online conformal prediction
+  - Value-at-Risk
+  - change detection
+  - lower bounds
+  - pre-registration

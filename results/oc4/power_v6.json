@@ -1,0 +1,74 @@
+[
+ {
+  "kind": "power (exploratory effect)",
+  "n_days": 215,
+  "holm_reject_1pct": 0.132,
+  "holm_reject_5pct": 0.239,
+  "any_reject": 0.254,
+  "first_step_1pct": 0.0925,
+  "first_step_5pct": 0.2285
+ },
+ {
+  "kind": "power (exploratory effect)",
+  "n_days": 465,
+  "holm_reject_1pct": 0.1645,
+  "holm_reject_5pct": 0.3265,
+  "any_reject": 0.329,
+  "first_step_1pct": 0.087,
+  "first_step_5pct": 0.321
+ },
+ {
+  "kind": "power (exploratory effect)",
+  "n_days": 715,
+  "holm_reject_1pct": 0.239,
+  "holm_reject_5pct": 0.408,
+  "any_reject": 0.4085,
+  "first_step_1pct": 0.116,
+  "first_step_5pct": 0.403
+ },
+ {
+  "kind": "power (exploratory effect)",
+  "n_days": 1500,
+  "holm_reject_1pct": 0.5275,
+  "holm_reject_5pct": 0.7465,
+  "any_reject": 0.7465,
+  "first_step_1pct": 0.2735,
+  "first_step_5pct": 0.7435
+ },
+ {
+  "kind": "size (null)",
+  "n_days": 215,
+  "holm_reject_1pct": 0.0,
+  "holm_reject_5pct": 0.0005,
+  "any_reject": 0.0005,
+  "first_step_1pct": 0.0,
+  "first_step_5pct": 0.0005
+ },
+ {
+  "kind": "size (null)",
+  "n_days": 465,
+  "holm_reject_1pct": 0.0,
+  "holm_reject_5pct": 0.0,
+  "any_reject": 0.0,
+  "first_step_1pct": 0.0,
+  "first_step_5pct": 0.0
+ },
+ {
+  "kind": "size (null)",
+  "n_days": 715,
+  "holm_reject_1pct": 0.0005,
+  "holm_reject_5pct": 0.0005,
+  "any_reject": 0.0005,
+  "first_step_1pct": 0.0,
+  "first_step_5pct": 0.0005
+ },
+ {
+  "kind": "size (null)",
+  "n_days": 1500,
+  "holm_reject_1pct": 0.0005,
+  "holm_reject_5pct": 0.0005,
+  "any_reject": 0.0005,
+  "first_step_1pct": 0.0,
+  "first_step_5pct": 0.0005
+ }
+]
