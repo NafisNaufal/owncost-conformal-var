@@ -8,8 +8,8 @@ license:
 repository-code: "https://github.com/NafisNaufal/owncost-conformal-var"
 date-released: "2026-11-15"
 authors:
-  - family-names: "Naufal"
-    given-names: "Nafis"
+  - family-names: "Rahman"
+    given-names: "Nafis Naufal"
     affiliation: "Universitas Brawijaya"
 keywords:
   - online conformal prediction

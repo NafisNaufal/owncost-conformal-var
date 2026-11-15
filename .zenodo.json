@@ -4,7 +4,7 @@
   "description": "Simulation and analysis code, JSON results, the supplement (full proofs and results) and the frozen, hashed confirmatory protocol with three amendments for the paper. The empirical study is exploratory; the confirmatory test has not been run. Raw vendor data are not redistributed; download scripts and SHA-256 checksums are included.",
   "creators": [
     {
-      "name": "Naufal, Nafis",
+      "name": "Rahman, Nafis Naufal",
       "affiliation": "Universitas Brawijaya"
     }
   ],
