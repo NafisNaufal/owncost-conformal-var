@@ -29,6 +29,7 @@ the analysis scripts (`oc4_analysis.py`, `oc4_event.py`, `oc4_v5.py`, `oc4_ownst
 `oc4_v6b.py`, `oc4_v7.py`, `oc4_parity_v7.py`, `oc4_h1_series.py`, `oc4_power_v7.py`). Theory scripts run on their own (`sim_v7_match.py` and `finite_delta_v7.py` use about 200 cores for several minutes).
 
 ## Confirmatory test
+The protocol bundle (protocol, amendments 1-3, frozen code) is registered on Zenodo: https://doi.org/10.5281/zenodo.24267344 (16 November 2026).
 Not yet run. It is to be run with `oc4_confirm.py` (amendment 3; the amendment-2 version is `oc4_confirm_a2.py`) once 715
 trading days after 2025 are available, as the protocol and its amendments specify. Run on the exploratory window (`--start 2015-01-01 --end 2026-01-01 --new-data none`), it reproduces
 the published cells (-7.75% at 1%, -3.04% at 5%).
@@ -43,4 +44,4 @@ results, figures and protocol documents are released under CC BY 4.0 (`LICENSE-C
 included and are not covered by either licence.
 
 ## Before depositing (author)
-- After deposit, add the DOI to the paper and to `CITATION.cff`.
+- After depositing this code archive, add its DOI to the paper and to `CITATION.cff`.
