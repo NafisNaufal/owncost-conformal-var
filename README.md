@@ -1,7 +1,7 @@
 # Code, results and protocol for "The Per-Shock Price of Own Feedback in Online Conformal Value-at-Risk"
 
 Companion archive for the paper "The Per-Shock Price of Own Feedback in Online Conformal Value-at-Risk: Lower Bounds,
-Exact Per-Day Optima and Known-Law Attainment" (N. N. Rahman, Universitas Brawijaya; manuscript v7, November 2026).
+Exact Per-Day Optima and Known-Law Attainment" (N. N. Rahman and T. M. Adn, Universitas Brawijaya; manuscript v7, November 2026).
 
 ## Contents
 | Folder | What it holds |
